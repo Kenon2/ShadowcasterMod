@@ -1,0 +1,21 @@
+actor fakePeasant : Peasant 12000 // Rowan
+{
+	Translation 1
+	+USESPECIAL
+	Activation THINGSPEC_Switch
+	tag "idiot"
+	states
+	{
+	Active:
+		TNT1 A 0
+		TNT1 A 0 ACS_ExecuteAlways(1,0)
+		TNT1 A 1
+		goto spawn
+	InActive:
+		TNT1 A 0
+		//TNT1 A 0 A_AcsExecuteAlways(
+		TNT1 A 0 ACS_ExecuteAlways(1,0)
+		TNT1 A 1
+		goto spawn
+	}
+}
