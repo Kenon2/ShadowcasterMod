@@ -1,10 +1,31 @@
 [eng default]
 
 ROWAN1 = "ROWAN\cF: IN A SMALL WORLD, WORD TRAVELS FAST. I HEAR YOU JUST REMOVED SOME OBSTACLES FROM YOUR PATH. NICE WORK. ARE YOU INTERESTED IN SOME MORE LUCRATIVE PROJECTS?";// 10 sec
-ANSWER1 = "YOU\cF: SURE, WHY NOT.";
+ROWAN1A = "YOU\cF: SURE, WHY NOT.";
 ROWAN2 = "ROWAN\cF: GOOD. SOME UH, FRIENDS OF MINE NEED SOMEONE SILENCED. BELDIN IS BEING HELD BY THE ORDER IN THEIR SANCTUARY. THERE'S A RARELY USED ENTRANCE BY A SMALL PIER OFF THE RIVER WHICH IS UNGUARDED. GET IN, SHUT HIM UP, AND BRING HIS RING BACK TO ME AS PROOF."; //17 sec
-ANSWER2 = "YOU\cF: WILL IT BE WORTH THE EFFORT?";
+ROWAN2A = "YOU\cF: WILL IT BE WORTH THE EFFORT?"; //give LOG1003
 ROWAN3 = "ROWAN\cF: I'LL GUARANTEE 50 GOLD AND IF YOU RETURN WITHOUT SETTING OFF EVERY ALARM IN TOWN, THERE'S THE CHANCE TO EARN MUCH, MUCH MORE, AND HERE'S A LITTLE HELPER THAT SHOULD GIVE YOU AN EDGE."; //9 sec
-ANSWER3 = "YOU\cF: THANKS, I'll Need it.";
+ROWAN3A = "YOU\cF: THANKS, I'll Need it.";
 ROWAN4 = "ROWAN\cF: GOOD. REMEMBER, HIS SILENCE IS GOLDEN.";
-ANSWER4 = "YOU\cF: I'LL GET HIM.";
+ROWAN4A = "YOU\cF: I'LL GET HIM.";
+ROWAN5 = "ROWAN\cF: Liar! go get the ring!";
+
+ROWAN6 = "MISSION ACCOMPLISHED? YOU HAVE THE RING OF THE TRAITOR?"
+ROWAN6A = "HE'S DEAD, WHERE'S MY MONEY?"; // give 171
+ROWAN7 = "HERE, YOU EARNED IT. THE TRAITOR YOU KILLED WAS ABOUT TO REVEAL THE LOCATION OF THE FRONT. YOU SAVED LIVES. HOW WOULD YOU LIKE TO EARN MORE GOLD, AND A FUTURE FREE FROM TYRANNY?";
+
+[rus]
+
+ROWAN1 = "пнбюм\cF: лхп реяем, х мнбнярх пюяопнярпюмъчряъ ашярпн. ъ якшьюк, врн рш рнкэйн врн сапюк оюпс опеоърярбхи ян ябнецн осрх. унпньюъ пюанрю. гюхмрепеянбюм б анкее опхашкэмшу гюмърхъу?";
+ROWAN1A = "рш\cF: йнмевмн, онвелс мер.";
+ROWAN2 = "пнбюм\cF: унпньн. мейнрнпше, щ, лнх опхърекх унрър, врнаш йне-врн гюлнквюк. нпдем депфхр аекдхмю б ябнел ябърхкхые. нйнкн пейх еярэ педйн хяонкэгселши х онрнлс менупюмъелши бунд. опнаепхяэ рсдю, гюярюбэ ецн гюлнквюрэ мюбяецдю, х опхмеях лме ецн йнкэян б днйюгюрекэярбн."; //17 sec
+ROWAN2A = "рш\cF: нмн рнцн ярнхр?"; //give LOG1003
+ROWAN3 = "пнбюм\cF: ъ цюпюмрхпсч реае оърэдеяър гнкнршу, х, еякх рш бепмеьэяъ, ме бйкчвюъ йюфдсч бярпевмсч яхпемс б цнпнде, еярэ ьюмя гюпюанрюрэ йсдю анкэье. бнр реае меанкэьни онлнымхй."; //9 sec
+ROWAN3A = "рш\cF: яоюяхан, нм лме опхцндхряъ.";
+ROWAN4 = "пнбюм\cF: опебняундмн. гюонлмх, ецн лнквюмхе ≈ гнкнрн.";
+ROWAN4A = "рш\cF: ъ днаепсяэ дн мецн.";
+ROWAN5 = "пнбюм\cF: кфеж! опхмеях лме йнкэжн!";
+
+ROWAN6 = "пнбюм\cF: лхяяхъ бшонкмемю? рш опхмея йнкэжн опедюрекъ?";
+ROWAN6A = "рш\cF: нм лепрб. цде лнх демэцх?"; // give 171
+ROWAN7 = "пнбюм\cF: бнр, рш гюяксфхк ху. сахрши рнани опедюрекэ янахпюкяъ нрйпшрэ нпдемс леярнонкнфемхе аюгс янопнрхбкемхъ. рш яоюя лмнцн фхгмеи. реае аш ме унрекняэ еые гнкнрю х ябнандмнцн нр рхпюмхх асдсыецн?";
